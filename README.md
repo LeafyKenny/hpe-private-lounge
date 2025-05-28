@@ -1,12 +1,14 @@
-# React + Vite
+HPE Promotional Landing Portal Site 
+hpe-private-lounge
+Version 1.0.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend Development: Tailwind CSS, Post CSS, React.JS + Vanilla HTML / CSS / .JS
+Backend Functions: Supabase, SQL Cloud
+Packages: Iconify, Vite
+Design Software: Adobe Photoshop
 
-Currently, two official plugins are available:
+Github Repository: https://github.com/LeafyKenny/hpe-private-lounge/
+Sample Live Site: https://leafykenny.github.io/hpe-private-lounge/#corporate-responsibility
+Design (PSD & PNG): https://drive.google.com/drive/folders/13VXmbb5vF9FgxkT8yQEeQe5G7jzulhQA
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Thank you kindly for your time and consideration.
