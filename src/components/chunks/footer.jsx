@@ -7,13 +7,9 @@ export default function Footer() {
         {/* MOBILE: collapsible toggles */}
         <div className="space-y-6 md:hidden">
           {/* Column 1 */}
-          <details open>
-            <summary className="cursor-pointer text-base font-semibold py-2 border-b border-gray-300">
-              HPE
-            </summary>
-            <div className="pt-4">
+          <div className="pt-4">
               <img
-                src="/assets/FED17427-9067-4CD4-A168-ECFB56E564D2.png"
+                src={`${import.meta.env.BASE_URL}assets/FED17427-9067-4CD4-A168-ECFB56E564D2.png`}
                 alt="HPE Logo"
                 className="h-28 max-w-full object-contain relative -left-4 mb-6"
               />
@@ -59,7 +55,6 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-          </details>
 
           {/* Column 2 */}
           <details>
@@ -129,7 +124,7 @@ export default function Footer() {
           {/* Column 1 */}
           <div className="flex flex-col gap-4 max-w-xs">
             <img
-              src="/assets/FED17427-9067-4CD4-A168-ECFB56E564D2.png"
+              src={`${import.meta.env.BASE_URL}assets/FED17427-9067-4CD4-A168-ECFB56E564D2.png`}
               alt="HPE Logo"
               className="h-28 max-w-full object-contain relative -left-4 mb-9"
             />

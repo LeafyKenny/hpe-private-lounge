@@ -12,7 +12,7 @@ const Contact = () => {
           <div className="flex items-start gap-3">
             <Icon icon="mdi:email" className="text-xl mt-1" style={{ color: "#1cd3a8" }} />
             <p>
-              <strong>Email:</strong>{" "}
+              <strong></strong>{" "}
               <a
                 href="mailto:hpe-solutions-de@also.com"
                 className="hover:underline"
@@ -24,7 +24,7 @@ const Contact = () => {
           </div>
           <div className="flex items-start gap-3">
             <Icon icon="mdi:phone" className="text-xl mt-1" style={{ color: "#1cd3a8" }} />
-            <p><strong>Telefon:</strong> +49 2921 99-54 45</p>
+            <p><strong></strong> +49 2921 99-54 45</p>
           </div>
           <div className="flex items-start gap-3">
             <Icon icon="mdi:check-circle-outline" className="text-xl mt-1" style={{ color: "#1cd3a8" }} />

@@ -13,7 +13,7 @@ export default function Register() {
         {/* Left image */}
         <div className="flex-shrink-0 w-full md:w-1/2 max-w-md">
           <img
-            src="/assets/26F87B64-ACE4-4B6D-89F2-EDD5C912B0A6.jpeg"
+            src={`${import.meta.env.BASE_URL}assets/26F87B64-ACE4-4B6D-89F2-EDD5C912B0A6.jpeg`}
             alt="Aktivurlaub Verlosung"
             className="w-full h-auto rounded-[2rem] object-cover"
             style={{ aspectRatio: "1 / 1", maxHeight: "600px", maxWidth: "800px" }}

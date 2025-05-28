@@ -12,20 +12,27 @@ export default function InfoSection() {
       if (error) {
         console.error('Error fetching cards:', error);
       } else {
-        setCards(data);
+        // Prepend BASE_URL to relative image URLs
+        const adjusted = data.map(card => ({
+          ...card,
+          image_url: card.image_url.startsWith('/')
+            ? `${import.meta.env.BASE_URL}${card.image_url.slice(1)}`
+            : card.image_url
+        }));
+        setCards(adjusted);
       }
     }
     fetchCards();
   }, []);
 
   return (
-      <section
-          className="mx-auto px-6 py-16 font-metric"
-          style={{ backgroundColor: "#073634" }}
-        >
+    <section
+      className="mx-auto px-6 py-16 font-metric"
+      style={{ backgroundColor: "#073634" }}
+    >
       {/* Title centered */}
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
-        Steigern Sie Ihre Gewinnchancen
+        Beförderungsbonus
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">

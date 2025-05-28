@@ -17,7 +17,7 @@ export default function LoadingScreen({ children }) {
       >
         {/* Logo */}
         <img
-          src="/assets/FED17427-9067-4CD4-A168-ECFB56E564D2.png"
+          src={`${import.meta.env.BASE_URL}assets/FED17427-9067-4CD4-A168-ECFB56E564D2.png`}
           alt="Logo"
           className="mb-8 w-full max-w-xs sm:max-w-md md:max-w-lg"
           style={{ height: "auto" }}

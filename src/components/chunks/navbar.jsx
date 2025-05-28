@@ -78,7 +78,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 py-4">
           <div className="flex-shrink-0">
             <img
-              src="/assets/FED17427-9067-4CD4-A168-ECFB56E564D2.png"
+              src={`${import.meta.env.BASE_URL}assets/FED17427-9067-4CD4-A168-ECFB56E564D2.png`}
               alt="HPE Logo"
               className="h-14 w-auto"
             />
