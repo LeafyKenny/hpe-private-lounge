@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 // 有効期限（expiry date）
-const 有効期限 = new Date("2025-06-15T00:00:00Z");
+const 有効期限 = new Date("2025-07-15T00:00:00Z");
 
 export default function キャッシュ({ children }) {
   const [ロック中, ロック設定] = useState(false);
